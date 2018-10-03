@@ -1,0 +1,17 @@
+{
+  "name": "BookTime",
+  "version": "1.0",
+  "description": "New Tab show a book quote",
+  "permissions": ["declarativeContent", "storage"],
+  "manifest_version": 2,
+  // "background": {
+  //   "scripts": ["background.js"],
+  //   "persistent": false
+  // },
+  // "page_action": {
+  //   "default_popup": "popup.html"
+  // },
+  "chrome_url_overrides" : {
+    "newtab": "newtab.html"
+  }
+}
